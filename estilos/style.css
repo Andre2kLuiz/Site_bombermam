@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'bomberma';
+    src: url('../fontes/BOMBERMA.TTF') format(truetype);
+}
+
+:root {
+    --fonte-bomber: 'bomerma', cursive;  
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+html, body {
+    min-width: 100vh;
+    background-color: white;
+}
+
+header > h1 {
+    font-family: var(--fonte-bomber);
+    color:rgb(249, 97, 0) ;
+    text-shadow: 0px 5px 5px black;
+    text-align: center;
+
+}
