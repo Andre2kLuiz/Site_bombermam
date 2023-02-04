@@ -20,6 +20,7 @@ html, body {
     background-color: white;
     text-align: justify;
     text-size-adjust: unset;
+    font-size: 18px;
     
 }
 
@@ -53,6 +54,12 @@ p {
    padding: 15px;
 }
 
+section {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 2px;
+}
+
 section.imagem {
     background: black;
     color: rgb(249, 97, 0);
@@ -63,7 +70,7 @@ section.imagem {
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.49);
+    background-color: rgba(0, 0, 0, 0.701);
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.549);
     font-family: var(--fonte-bomber);
     
@@ -80,6 +87,7 @@ section#img01 {
     background-attachment: fixed;
 }
 
+
 section#imgcard {
     background-image: url('../imagem/imgcards.jfif');
     padding: 10vw ;
@@ -88,6 +96,13 @@ section#imgcard {
 
 section#imgshiro {
     background-image: url('../imagem/imgshiro.gif');
+    background-position: center center;
+    background-size: cover;
+    padding: 10vw;
+}
+
+section#imgkuro {
+    background-image: url('../imagem/imgkuro.gif');
     background-position: center center;
     background-size: cover;
     padding: 10vw;
