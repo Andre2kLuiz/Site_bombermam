@@ -16,7 +16,7 @@
 }
 
 html, body {
-    min-width: 54vh;
+    min-width: 50vh;
     background-color: white;
     text-align: justify;
     text-size-adjust: unset;
