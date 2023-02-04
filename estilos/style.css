@@ -17,7 +17,7 @@
 
 html, body {
     min-width: 50vh;
-    background-color: white;
+    background-color: whitesmoke;
     text-align: justify;
     font-size: 18px;
     
@@ -27,6 +27,7 @@ header {
     margin: auto;
     padding: 5px;
     background-color: black;
+    box-shadow: 0px 2px 2px;
     
 }
 
@@ -35,7 +36,7 @@ header > h1 {
     color:rgb(249, 97, 0) ;
     text-shadow: 0px 5px 5px black;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 13px;
     margin: auto;
     background-color: blue;
     
@@ -46,6 +47,8 @@ h2 {
     text-align: center;
     font-family: var(--fonte-bomber);
     color: rgb(249, 97, 0);
+    text-shadow: 0px 2px 2px black;
+    padding-bottom: 4px;
 }
 
 p {
@@ -126,8 +129,37 @@ section#imgdrein {
     background-image: url('../imagem/imgdrein.webp');
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed;
     padding: 10vh;
+}
+
+section#charabom {
+    background-image: url('../imagem/charabom.png');
+    background-position: right top;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 8vh;
+
+}
+
+section#louies {
+    background-image: url('../imagem/louies.webp');
+    background-position: center center;
+    background-size: cover;
+    padding: 8vh;
+}
+
+section#bagura {
+    background-image: url('../imagem/bagura.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 8vh;
+}
+section#cores {
+    background-image: url('../imagem/cores.jpg');
+    background-position: center center;
+    background-size: cover;
+    padding: 8vh;
 }
 
 ul {
