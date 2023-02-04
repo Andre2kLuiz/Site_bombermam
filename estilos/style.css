@@ -19,7 +19,6 @@ html, body {
     min-width: 50vh;
     background-color: white;
     text-align: justify;
-    text-size-adjust: unset;
     font-size: 18px;
     
 }
@@ -106,6 +105,29 @@ section#imgkuro {
     background-position: center center;
     background-size: cover;
     padding: 10vw;
+}
+
+section#imgmaxb {
+    background-image: url('../imagem/imgmaxb.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10vw;
+}
+
+section#imgptb {
+    background-image: url('../imagem/imgptb.webp');
+    background-position: center center;
+    background-size: cover;
+    padding: 10vw;
+}
+
+section#imgdrein {
+    background-image: url('../imagem/imgdrein.webp');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10vh;
 }
 
 ul {
