@@ -5,6 +5,8 @@
     src: url('../fontes/BOMBERMA.TTF') format(truetype);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
 :root {
     --fonte-bomber: 'bomerma', cursive;  
 }
@@ -23,22 +25,22 @@ html, body {
     
 }
 
-header {
-    margin: auto;
-    padding: 5px;
-    background-color: black;
-    box-shadow: 0px 2px 2px;
-    
-}
 
 header > h1 {
     font-family: var(--fonte-bomber);
-    color:rgb(249, 97, 0) ;
+    font-weight: bold;
+    font-size: 1.8em;
+    color:blue;
+    box-shadow: 0px 2px 2px;
     text-shadow: 0px 5px 5px black;
     text-align: center;
-    padding-bottom: 13px;
+    padding: 15vw;
     margin: auto;
     background-color: blue;
+    background-image: url('../imagem/logobomb.png');
+    background-size: cover;
+    background-position: center center;
+
     
 }
 
@@ -60,6 +62,7 @@ section {
     padding: 8px;
     margin: 5px;
     border-radius: 2px;
+    font-family: 'Carter One', cursive;
 }
 
 section.imagem {
@@ -72,7 +75,7 @@ section.imagem {
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.701);
+    background-color: rgba(0, 0, 0, 0.799);
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.549);
     font-family: var(--fonte-bomber);
     
