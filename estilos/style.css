@@ -82,6 +82,8 @@ section.imagem {
 
 section.imagem > p {
     display: inline-block;
+    font-size: 19px;
+    font-weight: bold;
     background-color: rgba(0, 0, 0, 0.799);
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.549);
     border: 2px solid blue;
